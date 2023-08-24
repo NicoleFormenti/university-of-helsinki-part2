@@ -16,6 +16,7 @@ const App = () => {
   return (
     <div>
     <h2>My Phone Book</h2>
+    <SearchBar />
     <h3>Add a person</h3>
     <div style={{display: "flex", flexDirection: "column", width: '300px'}}>
       <EntryForm addEntryToPhoneBook={addEntryToPhoneBook} />
